@@ -18,7 +18,7 @@ class Solution(object):
         # --- logic
         seen = set()
         while n != 1:
-            n = sum_of_squares(n)
+            n = sum_of_squares(n)  # do sum_of_squares first
 
             if n in seen:
                 return False
